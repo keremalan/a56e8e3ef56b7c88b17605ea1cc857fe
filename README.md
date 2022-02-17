@@ -10,7 +10,7 @@ Figma dosyasinda yer alan UX sayfasindan ilgili ulasabilirsiniz.
 yarn install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile
 
 ```sh
 yarn serve
