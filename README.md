@@ -1,10 +1,8 @@
-# hotel-reservation
+# Tasarim
 
-This template should help get you started developing with Vue 3 in Vite.
+https://www.figma.com/file/zvYcpEDCk9xls1qayFv7FQ/Challenge?node-id=0%3A1
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+Figma dosyasinda yer alan UX sayfasindan ilgili ulasabilirsiniz.
 
 ## Customize configuration
 
