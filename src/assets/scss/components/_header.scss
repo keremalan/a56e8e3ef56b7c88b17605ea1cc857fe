@@ -1,0 +1,29 @@
+:root {
+  --secondaryColor: #ffffff;
+}
+
+header {
+  background-color: var(--secondaryColor);
+  padding: 1vh 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > .header-brand > img {
+  width: 100%;
+  max-width: 240px;
+}
+
+header > .header-nav {
+  display: flex;
+  align-items: center;
+}
+
+header > .header-nav > a {
+  font-size: 1.4rem;
+  padding: 0 2vw;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: black !important;
+}

@@ -1,0 +1,98 @@
+:root {
+  --secondaryColor: #ffffff;
+  --thirdColor: #2a2faf;
+  --darkButton: #dadada;
+}
+
+.roomType-row, .roomScenic-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.roomType-Scenic {
+  max-width: 980px;
+  margin: 3vh auto 0;
+}
+
+.room-types,
+.room-scenics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1vw;
+}
+
+.room-type-1,
+.room-type-2,
+.room-type-3 {
+  margin-top: 1vh;
+  margin-bottom: 4vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.rt-1-summary,
+.rt-2-summary,
+.rt-3-summary {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.room-scenic-1,
+.room-scenic-2,
+.room-scenic-3 {
+  margin-top: 1vh;
+  margin-bottom: 4vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.room-scenic-summary {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 16vh;
+}
+
+.btn-back {
+  color: var(--thirdColor);
+}
+
+.room-type-img, .room-scenic-img {
+  width: 18.42vw;
+  min-width: 200px;
+}
+
+@media only screen and (max-width: 375px) {
+  .roomType-headline2,
+  .roomScenic-headline2 {
+    margin: 0 4vw;
+  }
+  .room-types,
+  .room-scenics {
+    flex-direction: column;
+    padding: 0 4vw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .roomType-headline2,
+  .roomScenic-headline2 {
+    margin: 0 4vw;
+  }
+  .room-types,
+  .room-scenics {
+    flex-direction: column;
+    padding: 0 4vw;
+  }
+}

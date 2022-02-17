@@ -1,0 +1,189 @@
+:root {
+  --secondaryColor: #ffffff;
+}
+
+a {
+  color: white !important;
+}
+
+.paymentSuccess {
+  max-width: 680px;
+  margin: 3vh auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.paymentSuccess-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 6vh 0;
+}
+
+.paymentSuccess-icon {
+  max-width: 2.4vw;
+  margin-bottom: 1vh;
+}
+
+.paymentSuccess-top > h2 {
+  font-size: 1.2rem;
+}
+
+.paymentSuccess-top > span {
+  font-size: 0.9rem;
+}
+
+.reservationOverview {
+  margin: 2vh 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservationOverview-roomImage {
+  display: none;
+  flex: 1;
+  max-height: 240px;
+}
+
+.reservationOverview-details {
+  margin-top: 1vh;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reservationOverview-details--date,
+.reservationOverview-details--person,
+.reservationOverview-details--room {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.reservationOverview-details--date-startDate,
+.reservationOverview-details--date-endDate,
+.reservationOverview-details--person-adultPerson,
+.reservationOverview-details--person-childPerson,
+.reservationOverview-details--room-roomType,
+.reservationOverview-details--room-roomScenic {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.reservationOverview-details--span {
+  margin-left: 10px;
+}
+
+.paymentOverview {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paymentOverview-roomPrice,
+.paymentOverview-priceEffect,
+.paymentOverview-dates,
+.paymentOverview-discount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reservationOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 12vh;
+}
+
+.reservationOptions > button {
+  font-size: 1rem;
+  width: 200px;
+}
+
+.paymentOverview > h2 {
+  margin-bottom: 1vh;
+}
+
+.paymentOverview-discount {
+  margin-bottom: 2vh;
+}
+
+.paymentOverview-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2vh 0 0 0;
+}
+
+@media only screen and (max-width: 375px) {
+  .reservationOverview {
+    flex-direction: column !important;
+  }
+
+  .reservationOverview-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reservationOverview-details--date,
+  .reservationOverview-details--person,
+  .reservationOverview-details--room {
+    margin: 2vh 0;
+  }
+
+  .paymentOverview {
+    margin: 0 auto;
+    width: 92%;
+  }
+
+  .reservationOptions {
+    margin-top: 6vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paymentSuccess-icon {
+    min-width: 40px;
+    margin-bottom: 2vh;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .reservationOverview {
+    flex-direction: column !important;
+  }
+
+  .reservationOverview-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reservationOverview-details--date,
+  .reservationOverview-details--person,
+  .reservationOverview-details--room {
+    margin: 2vh 0;
+  }
+
+  .paymentOverview {
+    margin: 0 auto;
+    width: 92%;
+  }
+
+  .reservationOptions {
+    margin-top: 6vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paymentSuccess-icon {
+    min-width: 40px;
+    margin-bottom: 2vh;
+  }
+}

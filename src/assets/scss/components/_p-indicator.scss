@@ -1,0 +1,50 @@
+:root {
+  --secondaryColor: #ffffff;
+  --thirdColor: #2a2faf;
+}
+
+#progress-indicator {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 3vh;
+}
+
+#progress-indicator > h5 {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.pi-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pi-texts > h3 {
+  font-weight: 600;
+}
+
+.pi-bar {
+  margin-top: 2vh;
+  background-color: var(--secondaryColor);
+  height: 5px;
+  border-radius: 3px;
+}
+
+.pi-bar-inside {
+  background-color: var(--thirdColor);
+  height: 5px;
+  border-radius: 3px;
+}
+
+.step2 {
+  margin-left: 11.2vw;
+}
+
+.step3 {
+  margin-left: 24.98vw;
+}
+
+.step4 {
+  margin-left: 42.24vw;
+}

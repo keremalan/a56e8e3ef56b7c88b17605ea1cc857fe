@@ -1,0 +1,26 @@
+:root {
+  --secondaryColor: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+.banner-info {
+  margin-top: -175px;
+  margin-left: 4vw;
+  padding: 2vh 1vw;
+  background: rgba(131, 131, 131, 0.4);
+  backdrop-filter: blur(40px);
+  color: var(--secondaryColor);
+  width: 250px;
+}
+
+.banner-info > h2 {
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+
+.banner-info > address {
+  margin-bottom: 1vh;
+}

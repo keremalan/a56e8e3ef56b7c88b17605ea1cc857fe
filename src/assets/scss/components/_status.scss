@@ -1,0 +1,39 @@
+:root {
+  --secondaryColor: #ffffff;
+}
+
+#status-bar {
+  background-color: var(--secondaryColor);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  justify-content: center;
+}
+
+#status-bar > div {
+  padding: 0 2vw;
+}
+
+.status-bar-spacer {
+  margin: 0 0.3vw;
+}
+
+.r-text > h2 {
+  font-weight: 400;
+}
+
+.r-date {
+  display: flex;
+  flex-direction: row;
+}
+
+.r-people {
+  display: center;
+  align-items: center;
+}
+
+.status-bar-state {
+  padding-left: 0.2vw;
+  color: rgba(0, 0, 0, 0.3);
+}
